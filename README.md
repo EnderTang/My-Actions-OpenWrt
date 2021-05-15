@@ -2,15 +2,15 @@
 [中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 ## 用法
--单击使用此模板按钮创建一个新的存储库。
--使用Lean的OpenWrt源代码生成.config文件。 （您可以通过工作流文件中的环境变量来更改它。）
--将.config文件推送到GitHub存储库。
--在“操作”页面上选择“构建OpenWrt”。
--单击运行工作流程按钮。
--构建完成后，单击“操作”页面右上角的Artifacts按钮以下载二进制文件。
+- 单击使用此模板按钮创建一个新的存储库。
+- 使用Lean的OpenWrt源代码生成.config文件。 （您可以通过工作流文件中的环境变量来更改它。）
+- 将.config文件推送到GitHub存储库。
+- 在“操作”页面上选择“构建OpenWrt”。
+- 单击运行工作流程按钮。
+- 构建完成后，单击“操作”页面右上角的Artifacts按钮以下载二进制文件。
 ## 小点
--创建.config文件和构建OpenWrt固件可能需要很长时间。 因此，在创建存储库以构建自己的固件之前，您可以通过在GitHub中搜索Actions-Openwrt来检查其他人是否已经构建了满足您需要的固件。
--将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
+- 创建.config文件和构建OpenWrt固件可能需要很长时间。 因此，在创建存储库以构建自己的固件之前，您可以通过在GitHub中搜索Actions-Openwrt来检查其他人是否已经构建了满足您需要的固件。
+- 将您所构建固件的一些元信息（例如固件体系结构和已安装的软件包）添加到存储库简介中，这将节省其他人的时间。
 
 ## Usage
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
